@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 @Controller
 public class UserController {
 
-    @Resource
+    @Autowired
     private UserService userService;
 
     @RequestMapping("/userDetail")
